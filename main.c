@@ -1,10 +1,10 @@
 #include <stdio.h>
-
+ 
 int main(void)
 {
     int input;
     scanf("%d", &input);
-    if (0 /* TODO: ここに条件式を書く */)
+    if (input >= 10 && input < 15 && input != 12)
     {
         printf("OK");
     }
@@ -14,3 +14,4 @@ int main(void)
     }
     return 0;
 }
+ 
