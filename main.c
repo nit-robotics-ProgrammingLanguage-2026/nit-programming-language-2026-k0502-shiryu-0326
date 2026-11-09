@@ -6,7 +6,7 @@ int main(void)
     scanf("%d", &input);
     if (input >= 10 && input < 15 && input != 12)
     {
-        printf("OK");
+        printf("OK"); 
     }
     else
     {
